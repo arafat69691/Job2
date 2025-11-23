@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Job2Nsda">
         <activity
+            android:name=".UpdateProfileActivity"
+            android:exported="false" />
+        <activity
             android:name=".EditProfileActivity"
             android:exported="false" />
         <activity

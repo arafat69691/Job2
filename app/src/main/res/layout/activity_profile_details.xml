@@ -42,13 +42,6 @@
                     android:text="Name"
                     android:textStyle="bold"/>
 
-                <TextView
-                    android:id="@+id/tvName"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Your Name Here"
-                    android:paddingBottom="12dp"/>
-
                 <!-- Email -->
                 <TextView
                     android:id="@+id/tvEmailLabel"
@@ -56,13 +49,6 @@
                     android:layout_height="wrap_content"
                     android:text="Email"
                     android:textStyle="bold"/>
-
-                <TextView
-                    android:id="@+id/tvEmail"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="example@gmail.com"
-                    android:paddingBottom="12dp"/>
 
                 <!-- Date of Birth -->
                 <TextView
@@ -72,13 +58,6 @@
                     android:text="Date of Birth"
                     android:textStyle="bold"/>
 
-                <TextView
-                    android:id="@+id/tvDob"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="01-Jan-2000"
-                    android:paddingBottom="12dp"/>
-
                 <!-- District -->
                 <TextView
                     android:id="@+id/tvDistrictLabel"
@@ -87,13 +66,6 @@
                     android:text="District"
                     android:textStyle="bold"/>
 
-                <TextView
-                    android:id="@+id/tvDistrict"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Dhaka"
-                    android:paddingBottom="12dp"/>
-
                 <!-- Mobile -->
                 <TextView
                     android:id="@+id/tvMobileLabel"
@@ -101,13 +73,6 @@
                     android:layout_height="wrap_content"
                     android:text="Mobile"
                     android:textStyle="bold"/>
-
-                <TextView
-                    android:id="@+id/tvMobile"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="+8801XXXXXXXXX"
-                    android:paddingBottom="12dp"/>
 
             </LinearLayout>
 

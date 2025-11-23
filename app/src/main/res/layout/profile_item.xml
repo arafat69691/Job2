@@ -34,26 +34,28 @@
 
             <!-- Delete button -->
             <ImageButton
-                android:id="@+id/btnDelete1"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:id="@+id/btnDelete"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
                 android:background="@android:color/transparent"
                 android:src="@drawable/delete"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
 
-            <!-- Optional second button -->
+
+
             <ImageButton
-                android:id="@+id/btnDelete2"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:id="@+id/btnEdit"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="16dp"
+
                 android:background="@android:color/transparent"
                 android:src="@drawable/img"
-                android:layout_marginTop="8dp"
-                app:layout_constraintTop_toBottomOf="@id/btnDelete1"
-                app:layout_constraintEnd_toEndOf="parent" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btnDelete" />
 
-            <!-- Name Label -->
             <TextView
                 android:id="@+id/tvNameLabel"
                 android:layout_width="wrap_content"
